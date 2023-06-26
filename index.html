@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shruti Das -portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tangerine&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shruti's -portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple"> Shruti Das</span>
+          <div>I am a<span style="margin-left: 0.3em" id="element"></span></div>
+          <div class="text">
+            I am a software engineer and here is my portfolio website
+          </div>
+          <button class="button">Hire Me</button>
+        </div>
+
+        <div class="rightSection">
+          <img class="rightSection-image" src="portfolio.jpg" />
+        </div>
+      </section>
+
+      <section class="secondSection">
+        <hr />
+
+        <div class="about">
+          <span class="purple">About Me</span>
+
+          <h1>passionate Front-End Developer</h1>
+          <p>
+            I am an undergraduate student of the department of Computer
+            engineering enthusiastic towards Coding and Development. I have
+            learned various Computer Science fundamentals and practical
+            interpersonal skills like teamwork, networking, and leadership. I am
+            a passionate Competitive Programmer and am highly interested in
+            Problem Solving with a good command in Data Structures and
+            Algorithms. I have solved around 270+ problems on different coding
+            platforms. I am actively looking and exploring different field
+            around to find my new interests. I try to put my best efforts to
+            achieve what I aspire.
+          </p>
+          <span class="material-symbols-outlined"> rocket_launch </span>
+          <span class="material-symbols-outlined"> cruelty_free </span>
+          <span class="material-symbols-outlined"> workspaces </span>
+          <span class="material-symbols-outlined"> emoji_nature </span>
+        </div>
+      </section>
+      <section class="project">
+        <hr />
+        <h1 class="page_header">Projects</h1>
+        <div class="project_container">
+          <div class="project-card" id="project1">
+            <div class="project-number project-number-left">01</div>
+            <div class="project-content project-content-left">
+              <div class="project-skills-container">
+                <img class="skills" src="s1.jpg" />
+                <img class="skills" src="sql.jpg" />
+              </div>
+              <h2 class="project-heading">Sanjeevani App</h2>
+              <p class="project-subheading">
+                A fully functional desktop app for a Hospital which look after
+                every fuction a hospital staffs need.
+              </p>
+              <button class="button">Know More</button>
+            </div>
+          </div>
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-right">02</div>
+            <div class="project-content project-content-right">
+              <div class="project-skills-container">
+                <img class="skills" src="sp.png" />
+              </div>
+              <h2 class="project-heading">Music Player</h2>
+              <p class="project-subheading">
+                The main function of this website is playing music.
+              </p>
+              <button class="button">Know More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skillSection">
+        <hr />
+        <div class="skill-fade-text">Skills</div>
+        <div class="skill-left">
+          <h2 class="skill-heading">
+            <span class="caps">M</span>e and
+            <br />
+            MyTech Stack
+          </h2>
+        </div>
+        <div class="subHeading">
+          <p></p>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Java Developer", "Front-End developer", "Coder"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
