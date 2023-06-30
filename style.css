@@ -362,7 +362,30 @@ main hr {
   width: 100%;
   background-color: rgb(32, 32, 40);
 }
-.container {
+.main-container {
   width: 1200px;
   margin: 0 auto;
+}
+.contact-us-heading{
+  font-size: 5rem;
+   color: rgb(72, 65, 119);
+   padding-top: 2rem;
+}
+.contact-us-subheading{
+  font-size: 3rem;
+  color: grey;
+}
+.contact-us-form-container{
+  margin-top: 25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-direction: column;*/
+}
+.form-filled-container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 70%;
+  margin: 2rem 5rem;
 }
