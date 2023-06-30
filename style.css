@@ -389,3 +389,24 @@ main hr {
   width: 70%;
   margin: 2rem 5rem;
 }
+.form-filled{
+  width: 100%;
+  font-size: 18px;
+  padding: 0 2rem;
+  height: 42px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px grey;
+  font-weight: 500;
+  border: none;
+}
+.form-filled-textArea{
+  height: auto;
+  padding-top: 1rem;
+}
+#submit-btn{
+  font-size: 1.5rem;
+  border: none;
+}
+#submit-btn:hover{
+  scale: 0.9;
+}
