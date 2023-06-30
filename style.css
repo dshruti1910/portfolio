@@ -299,17 +299,34 @@ main hr {
   position: relative;
   /* padding: 5rem;*/
   margin: 10rem auto;
-
+  
   gap: 10rem;
 }
 .skill-left {
-  width: 40%;
-  display: flex;
+
+  /* display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   position: relative;
+  height: 70vh;
   gap: 10rem;
+  margin-bottom: 5rem
 }
+
+.skills-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.skill-fade-text-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
 .skill-fade-text {
   font-size: 15rem;
   font-style: bold;
@@ -317,7 +334,7 @@ main hr {
   bottom: -25.5%;
   right: -1.5%;
   user-select: none;
-  width: 50%;
+  
   text-align: center;
 
 }
@@ -339,6 +356,12 @@ main hr {
 }*/
 .project-skills-container {
   margin: auto;
+  width: 50%;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 20px;
+  padding: 10px;
 }
 .skill-logo {
   width: 90px;
@@ -355,7 +378,7 @@ main hr {
   margin-top: 2rem;
 
   color: rgb(72, 65, 119);
-  text-align: center;
+  /* text-align: center; */
   /*border: 2px solid #df99e7;*/
 }
 .contact-us-container {
@@ -364,6 +387,7 @@ main hr {
 }
 .main-container {
   width: 1200px;
+
   margin: 0 auto;
 }
 .contact-us-heading{
